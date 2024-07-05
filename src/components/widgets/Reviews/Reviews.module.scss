@@ -1,0 +1,32 @@
+.lorenzo {
+  position: absolute;
+  top: 172px;
+  right: 82px;
+}
+
+.adalina {
+  position: absolute;
+  top: 334px;
+  right: 194px;
+}
+
+.alexander {
+  position: absolute;
+  right: 78px;
+  top: 496px;
+}
+
+.rushana {
+  position: absolute;
+  right: 194px;
+  top: 658px;
+}
+
+.adalina,
+.alexander,
+.lorenzo,
+.rushana {
+  @media screen and (max-width: 1500px) {
+    display: none;
+  }
+}

@@ -1,0 +1,44 @@
+.bitcoin {
+  position: absolute;
+  width: 312px;
+  height: 352px;
+  top: 0;
+  right: 62px;
+
+  @media screen and (max-width: 1100px) {
+    width: 136px;
+    height: 188px;
+    right: 16px;
+  }
+}
+
+.eth {
+  position: absolute;
+  width: 312px;
+  height: 408px;
+  bottom: 0;
+  right: 62px;
+
+  @media screen and (max-width: 1100px) {
+    width: 140px;
+    height: 160px;
+    right: unset;
+    left: 16px;
+    top: 70px;
+  }
+}
+
+.litcoin {
+  position: absolute;
+  right: 282px;
+  top: 277px;
+  width: 312px;
+  height: 324px;
+
+  @media screen and (max-width: 1100px) {
+    width: 136px;
+    height: 214px;
+    right: 16px;
+    top: 203px;
+  }
+}
